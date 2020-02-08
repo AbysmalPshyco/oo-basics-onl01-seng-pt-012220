@@ -8,5 +8,6 @@ class Shoe
     @brand = brand
   end
   
-  def cobble=(repair)
+  def cobble=(repair=new)
+    @cobble=repair
 end
